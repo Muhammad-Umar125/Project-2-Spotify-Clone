@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar flex">
+            <div class="hamburger">
+                <img class="invert" src="hambuger.svg" alt="">
+            </div>
+            <div class="logo flex items-center">
+                <img class="invert" src="logo.svg" alt="logo">
+                <p>Spotify</p>
+            </div>
+            <div class="middle flex">
+
+                <div class="home">
+
+                    <img class="invert" src="home.svg" alt="">
+
+                </div>
+                <div class="search flex">
+                    <img class="invert" src="search.svg" alt="">
+                    <input type="text" placeholder="What do you want to play?">
+                    <img class="invert" src="browse.svg" alt="">
+                </div>
+            </div>
+            <div class="log-in flex">
+                <div class="button1 grey">
+                    <button>Sign up</button>
+                </div>
+                <div class="button2">
+                    <button>Log in</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="portion flex">
+
+            <div class="left border">
+                <div class="library flex  ">
+                    <div class="sub-left flex items-center grey">
+                        <button class="flex grey items-center ">
+                            <img class="invert2" src="library.svg" alt="">
+                            <p>Your Library</p>
+                        </button>
+
+                    </div>
+                    <div class="sub-right">
+                        <img class="invert" src="add.svg" alt="">
+                    </div>
+                    <div class="close">
+                        <img class="invert" src="close.svg" alt="" width="32px">
+                    </div>
+
+                </div>
+                <div class="box1 border">
+                    <div class="text">
+                        <h4>Create your first playlist</h4>
+                        <p>It’s easy, we’ll help you</p>
+                    </div>
+                    <div class="button">
+                        <button>Create playlist</button>
+                    </div>
+                </div>
+                <div class="box2 border">
+                    <div class="text">
+                        <h4>Let’s find some podcasts to follow</h4>
+                        <p>We’ll keep you updated on new episodes</p>
+                    </div>
+                    <div class="button">
+                        <button>Browse podcasts</button>
+                    </div>
+
+                </div>
+                <div class="box3 border">
+                    <div class="text">
+                        <h4>Popular songs</h4>
+                        <div class="songList">
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button>Browse podcasts</button>
+                    </div>
+
+                </div>
+                <div class="footer">
+                    <a href="#">Legal</a>
+                    <a href="#">Safety & Privacy Center</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">About Ads</a>
+                    <a href="#">Accessibility</a>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="right border">
+                <div class="section-1">
+                    <div class="nav flex items-center">
+                        <h2>Popular artists</h2>
+                        <p>show all</p>
+                    </div>
+                    <div class="artists flex">
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab676161000051743fabb44dc3b3dcfc1a366298" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67616100005174fb505b37709fa86cfd8f55b3" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab676161000051748f553f96d564d1005a92d131" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="section">
+                    <div class="nav flex items-center">
+                        <h2>Popular albums</h2>
+                        <p>show all</p>
+                    </div>
+                    <div class="artists flex">
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Jo Tum Mere Ho</p>
+                            <p>Anuv Jain</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02453e292ec04853335c32e0b4" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67616d00001e021a8c4618eda885a406958dd0" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="section">
+                    <div class="nav flex items-center">
+                        <h2>Popular radio</h2>
+                        <p>show all</p>
+                    </div>
+                    <div class="artists flex">
+                        <div class="card flex">
+                            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/69xcFpmqTOmFNOL08Bxyci/en-GB"
+                                alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/69xcFpmqTOmFNOL08Bxyci/en-GB"
+                                alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/69xcFpmqTOmFNOL08Bxyci/en-GB"
+                                alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/69xcFpmqTOmFNOL08Bxyci/en-GB"
+                                alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/69xcFpmqTOmFNOL08Bxyci/en-GB"
+                                alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/69xcFpmqTOmFNOL08Bxyci/en-GB"
+                                alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="section">
+                    <div class="nav flex items-center">
+                        <h2>Featured Charts</h2>
+                        <p>show all</p>
+                    </div>
+                    <div class="artists flex">
+                        <div class="card flex">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                                alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Your weekly update of the most played tracks right now - Global.</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                                alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                                alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                                alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                                alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                                alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="section">
+                    <div class="nav flex items-center">
+                        <h2>Zzzzzzz</h2>
+                        <p>show all</p>
+                    </div>
+                    <div class="artists flex">
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67706f00000002cd17d41419faa97069e06c16" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67706f00000002cd17d41419faa97069e06c16" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67706f00000002cd17d41419faa97069e06c16" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67706f00000002cd17d41419faa97069e06c16" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67706f00000002cd17d41419faa97069e06c16" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Pritam</p>
+                            <p>Artist</p>
+                        </div>
+                        <div class="card flex">
+                            <img src="https://i.scdn.co/image/ab67706f00000002cd17d41419faa97069e06c16" alt="">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                            <p>Gentle Ambient piano to help you fall asleep. </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="playbar ">
+
+                    <div class="upperbar flex">
+
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbuttons flex items-center justify-center">
+
+                            <img id="previous" class="invert small" src="previous.svg" alt="">
+                            <img id="play" class="invert large" src="play.svg" alt="" id="playButton">
+                            <img id="next" class="invert small" src="next.svg" alt="">
+                        </div>
+                        <div class="timenvol flex">
+                            <div class="songtime">
+                            </div>
+                            <div class="volume">
+                                <img class="invert" src="volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="banner">
+        <div class="banner-content">
+            <div class="text-content">
+                <h3>Preview of Spotify</h3>
+                <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+            <button class="sign-up-btn">Sign up for free</button>
+        </div>
+    </div> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
