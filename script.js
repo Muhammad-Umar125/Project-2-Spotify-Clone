@@ -19,7 +19,7 @@ function convertToMinutesSeconds(totalSeconds) {
 
 async function getSongs() {
 
-    let a = await fetch("/songs/");
+    let a = await fetch("./songs/");
     let response = await a.text();
     
     let div = document.createElement("div")
