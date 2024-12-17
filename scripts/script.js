@@ -18,15 +18,22 @@ function convertToMinutesSeconds(totalSeconds) {
 }
 
 async function getSongs() {
-    try {
-        const response = await fetch("./songs/songs.json");
-        if (!response.ok) throw new Error(`Failed to load songs.json: ${response.statusText}`);
-        songs = await response.json();
-        return songs;
-    } catch (error) {
-        console.error("Error fetching songs:", error);
-        return [];
+
+    let a = await fetch("./songs/");
+    let response = await a.text();
+    
+    let div = document.createElement("div")
+    div.innerHTML = response;
+    songs = []
+    let links = div.getElementsByTagName("a")
+    for (let index = 0; index < links.length; index++) {
+        const element = links[index]
+        if (element.href.endsWith("mp3")) {
+            songs.push(element.href.split("/songs/")[1])
+        }
+
     }
+    return songs
 }
 
 const playMusic = (track,pause = false) => {
